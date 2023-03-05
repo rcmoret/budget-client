@@ -1,7 +1,7 @@
-import React, { Component} from "react";
+import React from "react";
 import "./App.css";
 
-export default App = () => {
+export default () => {
   return(
     <div className="App">
       <h1> Hello, World! </h1>
