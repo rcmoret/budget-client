@@ -19,5 +19,8 @@
   "devDependencies": {
     "babel-plugin-root-import": "^6.6.0",
     "webpack": "^5.75.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
   }
 }
