@@ -8,7 +8,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx|ts|tsx)$/,
+        test: /\.(css|js|jsx|ts|tsx)$/,
         exclude: /(node_modules|bower_components)/,
         loader: "babel-loader",
         options: { presets: ["@babel/env"] },
@@ -24,6 +24,7 @@ module.exports = {
     alias: {
       "@": path.join(__dirname, "src/"),
       actions: path.join(__dirname, "src/actions/"),
+      assets: path.join(__dirname, "src/assets/"),
       components: path.join(__dirname, "src/components/"),
       reducers: path.join(__dirname, "src/reducers/"),
       types: path.join(__dirname, "src/types/"),

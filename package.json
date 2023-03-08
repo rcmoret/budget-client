@@ -27,6 +27,7 @@
     "webpack": "^5.75.0"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development"
+    "start": "yarn watch:css && webpack-dev-server --mode development",
+    "watch:css": "postcss src/assets/tailwind.css -o public/index.css"
   }
 }
